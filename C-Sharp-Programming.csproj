@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>C_Sharp_Programming</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- EnableDefaultCompileItems 속성을 false로 설정합니다. -->
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <!-- 필요한 항목을 직접 포함합니다. -->
+  <ItemGroup>
+
+    <!-- 기존 항목 -->
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+
+    <!-- 새로운 항목: System.Windows.Forms 어셈블리 참조 추가 -->
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+
+    <!-- 컴파일 할 Main -->
+    <Compile Include="ThirdArrayApplication.cs" />
+  </ItemGroup>
+</Project>
