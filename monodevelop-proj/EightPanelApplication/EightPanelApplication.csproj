@@ -43,6 +43,14 @@
     <Compile Include="ButtonStyleTest\ButtonTest.cs" />
     <Compile Include="CheckBoxStyleTest\CheckboxTest.cs" />
     <Compile Include="RadioButtonStyleTest\RadioButtonTest.cs" />
+    <Compile Include="TextBoxStyleTest\TextBoxTest.cs" />
+    <Compile Include="ListBoxStyleTest\ListBoxTest.cs" />
+    <Compile Include="MenuStyleTest\MenuTest.cs" />
+    <Compile Include="DialogStyleTest\DialogTest.cs" />
+    <Compile Include="NewModal\ModalTest.cs" />
+    <Compile Include="NewModal\NewModalForm.cs" />
+    <Compile Include="ModalessStyleTest\ModalessTest.cs" />
+    <Compile Include="ModalessStyleTest\NewModalessForm.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Layout\" />
@@ -50,6 +58,12 @@
     <Folder Include="ButtonStyleTest\" />
     <Folder Include="CheckBoxStyleTest\" />
     <Folder Include="RadioButtonStyleTest\" />
+    <Folder Include="TextBoxStyleTest\" />
+    <Folder Include="ListBoxStyleTest\" />
+    <Folder Include="MenuStyleTest\" />
+    <Folder Include="DialogStyleTest\" />
+    <Folder Include="NewModal\" />
+    <Folder Include="ModalessStyleTest\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

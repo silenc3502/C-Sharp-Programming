@@ -5,6 +5,12 @@ using EightPanelApplication.FontStyleTest;
 using EightPanelApplication.ButtonStyleTest;
 using EightPanelApplication.CheckBoxStyleTest;
 using EightPanelApplication.RadioButtonStyleTest;
+using EightPanelApplication.TextBoxStyleTest;
+using EightPanelApplication.ListBoxStyleTest;
+using EightPanelApplication.MenuStyleTest;
+using EightPanelApplication.DialogStyleTest;
+using EightPanelApplication.NewModal;
+using EightPanelApplication.ModalessStyleTest;
 
 namespace EightPanelApplication
 {
@@ -21,7 +27,13 @@ namespace EightPanelApplication
             // Application.Run(new FontTest());
             // Application.Run(new ButtonTest());
             // Application.Run(new CheckboxTest());
-            Application.Run(new RadioButtonTest());
+            // Application.Run(new RadioButtonTest());
+            // Application.Run(new TextBoxTest());
+            // Application.Run(new ListBoxTest());
+            // Application.Run(new MenuTest());
+            // Application.Run(new DialogTest());
+            // Application.Run(new ModalTest());
+            Application.Run(new ModalessTest());
         }
 
         public MainClass()
