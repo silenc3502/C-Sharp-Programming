@@ -6,6 +6,9 @@ using NinethGraphicApplication.ImageSave;
 using NinethGraphicApplication.Picking;
 using NinethGraphicApplication.Clipping;
 using NinethGraphicApplication.RandomPrint;
+using NinethGraphicApplication.TimerForm;
+using NinethGraphicApplication.AnimationForm;
+using NinethGraphicApplication.DigitalClock;
 
 namespace NinethGraphicApplication
 {
@@ -18,7 +21,10 @@ namespace NinethGraphicApplication
             // Application.Run(new ImageSaveTest());
             // Application.Run(new ClickTest());
             // Application.Run(new ClippingTest());
-            Application.Run(new RandomPrintTest());
+            // Application.Run(new RandomPrintTest());
+            // Application.Run(new TimerTest());
+            // Application.Run(new AnimationTest());
+            Application.Run(new DigitalClockTest());
         }
     }
 }

@@ -43,6 +43,9 @@
     <Compile Include="Picking\ClickTest.cs" />
     <Compile Include="Clipping\ClippingTest.cs" />
     <Compile Include="RandomPrint\RandomPrintTest.cs" />
+    <Compile Include="TimerForm\TimerTest.cs" />
+    <Compile Include="AnimationForm\AnimationTest.cs" />
+    <Compile Include="DigitalClock\DigitalClockTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BasicRotation\" />
@@ -52,6 +55,9 @@
     <Folder Include="Picking\" />
     <Folder Include="Clipping\" />
     <Folder Include="RandomPrint\" />
+    <Folder Include="TimerForm\" />
+    <Folder Include="AnimationForm\" />
+    <Folder Include="DigitalClock\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cpu.bmp" />
